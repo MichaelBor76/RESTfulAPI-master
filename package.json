@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "REST todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalgmt/RESTAPI.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Mikhail Borisov",
+  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/generalgmt/RESTAPI/issues"
+  },
+  "homepage": "https://github.com/generalgmt/RESTAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  }
+}
